@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calc Menu Layout"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#161515"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNo1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:hint="Enter First No:"/>
+    <EditText
+        android:id="@+id/txtNo2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:hint="Enter Second No:"/>
+
+    <TextView
+        android:id="@+id/lblresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result ="
+        android:textSize="34dp"/>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:onClick="addition"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtraction"
+        android:onClick="subtraction"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnmulti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication"
+        android:onClick="multiplication"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btndivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:onClick="division"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
